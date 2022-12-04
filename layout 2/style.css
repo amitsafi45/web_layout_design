@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: fantasy;    
+}
+#super{
+    width: 90%;
+    min-height:650px ;
+    padding-top: 10px;
+    margin: auto;
+}
+.clearFix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#logo-nav{
+    width: 100%;
+    min-height: 50px;
+    background-color:lightgreen;
+    margin-bottom: 10px;
+}
+#logo{
+    width:50%;
+    min-height: 50px;
+    padding-left: 20px;
+    line-height: 50px;
+    float: left;
+}
+#nav{
+    width:50%;
+    min-height: 50px;
+    line-height: 50px;
+    float:left;
+    text-align: center;
+}
+.main1{
+    width: 100%;
+    min-height:600px;
+    margin-bottom: 10px;
+}
+.row{
+    width: 100%;
+    min-height:100px;
+    margin-bottom: 10px;
+}
+.row1{
+    width: 20%;
+    min-height: 100px;
+    background-color:lightgreen;
+    float: left;
+}
+.row1:nth-child(2){
+    margin-left:5%;
+    margin-right:5%;
+}
+.row1:nth-child(3){
+    margin-left:5%;
+    margin-right:5%;
+}
+.row3{
+    width: 100%;
+    min-height: 200px;
+}
+.row2{
+    width: 30%;
+    min-height:200px;
+    text-align: center;
+    line-height: 200px;
+    background-color:lightgreen;
+    float: left;
+}
+.row2:nth-child(2){
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#footer{
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 50px;
+}
