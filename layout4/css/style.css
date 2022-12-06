@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+body{
+    display: flex;
+    flex-direction:column;
+    margin: 10px;
+
+}
+/*now inner element of body tag  consider as flex item*/
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    min-height: 100px;
+    /* background-color: orange; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+    margin: auto;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* padding-left: 30px; */
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 50px;
+    background-color:lightgreen;
+    align-items: center;
+    padding-left: 20px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 30px;
+    background-color:lightgreen;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100px;
+    background-color:lightgreen;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.main-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 400px;
+    /* background-color: cadetblue; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    
+}
+.sidebar{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20%;
+    /* width: 40%; */
+    background-color:lightgreen;
+    /* min-height: 400px; */
+    justify-content: center;
+    align-items: center;
+       
+}
+.body-div{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 75%;
+    /* width: 60%; */
+    /* min-height: 400px; */
+    background-color:lightgreen;
+    justify-content: center;
+    align-items: center;
+  
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+   width: 100%;
+   min-height: 100px;
+ background-color:lightgreen;  
+   justify-content: center;
+   align-items: center;
+}
